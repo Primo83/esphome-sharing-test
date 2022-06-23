@@ -70,3 +70,7 @@ light:
     on_turn_on: 
       - delay: 15s
       - light.turn_off: esp_led
+      
+web_server:
+  local: true
+  version: 2
