@@ -1,5 +1,6 @@
 # CHANGEME: Set these variable to your liking
 title: ESPHome Project Template Primo
 description: Powered by ESPHome and ESP Web Tools and Primo
-about: some about primo
+page:
+  description: some about primo
 theme: jekyll-theme-slate
