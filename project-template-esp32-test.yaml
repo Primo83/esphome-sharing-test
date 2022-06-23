@@ -65,7 +65,7 @@ output:
 light:
   - platform: binary
     output: gpio_2
-    name: Led test primo sharing
+    name: Led test primo sharing2
     id: esp_led
     on_turn_on: 
       - delay: 15s
