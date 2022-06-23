@@ -70,6 +70,13 @@ light:
     on_turn_on: 
       - delay: 15s
       - light.turn_off: esp_led
+  - platform: binary
+    output: gpio_2
+    name: Led test primo sharing2
+    id: esp_led
+    on_turn_on: 
+      - delay: 15s
+      - light.turn_off: esp_led
       
 web_server:
   local: true
