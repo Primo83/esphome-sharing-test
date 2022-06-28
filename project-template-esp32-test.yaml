@@ -94,4 +94,3 @@ light:
 web_server:
   local: true
   js_include: "./web4.js"
-  version: 2
