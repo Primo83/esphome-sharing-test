@@ -93,5 +93,5 @@ light:
       
 web_server:
   local: true
-  js_url: "https://primo83.github.io/esphome-sharing-test/static-dir/web2.js"
+  js_include: "./web4.js"
   version: 2
