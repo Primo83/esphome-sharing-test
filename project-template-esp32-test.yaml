@@ -94,3 +94,4 @@ light:
 web_server:
   local: true
   js_include: "./web4.js"
+  js_url: ""
