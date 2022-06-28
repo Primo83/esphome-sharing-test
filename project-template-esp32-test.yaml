@@ -64,6 +64,9 @@ output:
    - platform: gpio
      pin: GPIO3
      id: gpio_3
+   - platform: gpio
+     pin: GPIO4
+     id: gpio_4
 
 light:
   - platform: binary
@@ -80,6 +83,13 @@ light:
     on_turn_on: 
       - delay: 15s
       - light.turn_off: esp_led3
+  - platform: binary
+    output: gpio_4
+    name: Led test primo sharing4
+    id: esp_led4
+    on_turn_on: 
+      - delay: 15s
+      - light.turn_off: esp_led4
       
 web_server:
   local: true
