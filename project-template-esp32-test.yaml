@@ -37,10 +37,6 @@ wifi:
   ap:
     password: "12345678"
 
-# In combination with the `ap` this allows the user
-# to provision wifi credentials to the device.
-captive_portal:
-
 ##########################################################
 # Most projects should not remove anything from above here
 # and should just modify the name, project name/version 
@@ -90,7 +86,6 @@ light:
     on_turn_on: 
       - delay: 15s
       - light.turn_off: esp_led4
-      
-      
+       
 web_server:
   js_url: "https://primo83.github.io/esphome-sharing-test/static-dir/web5.js"
