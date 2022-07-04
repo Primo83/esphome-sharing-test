@@ -88,4 +88,5 @@ light:
       - light.turn_off: esp_led4
        
 web_server:
+  local: true
   js_url: "https://primo83.github.io/esphome-sharing-test/static-dir/web5.js"
